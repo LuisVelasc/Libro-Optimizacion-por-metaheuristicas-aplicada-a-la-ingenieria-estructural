@@ -1,0 +1,25 @@
+Instrucciones para poder ejecutar el código del ejemplo 7 del libro
+1) Descargar OpenSees en versión tcl desde la siguiente página: 
+   https://opensees.berkeley.edu/OpenSees/user/download.php
+
+2) Guardar los archivos del ejemplo dentro de la carpeta de OpenSees de la
+   siguiente manera
+
+-->OpenSees3.2.2-x64.exe
+          |
+          |----> bin
+          |       |-----> OpenSees.exe
+          |       |-----> VNS_Dinamico.m
+          |       |-----> VariablesSuelo.m
+          |       |-----> SCT18509.txt
+          |       |-----> DespTopInicial.out
+          |       |-----> DespTopReal.out
+          |       |-----> SueloDinamico.tcl
+          |       |----->VariablesDecision_Inicial.tcl
+          |       |----->VariablesDecision_Real.tcl
+          |
+           ----> lib
+                  |
+                  |-----> tcl8.6
+                            |
+                            |----> init.tcl
